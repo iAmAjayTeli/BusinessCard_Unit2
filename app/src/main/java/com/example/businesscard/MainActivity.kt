@@ -38,7 +38,7 @@ import com.example.businesscard.ui.theme.black
 
 
 class MainActivity : ComponentActivity() {
-    val details= CardDetails(
+    private val details= CardDetails(
         getString(R.string.ajay_kumar_teli),
         getString(R.string.android_developer_expert),
         getString(R.string.ajaykumarteli472_gmail_com),
